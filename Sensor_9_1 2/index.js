@@ -47,9 +47,7 @@ function accelerometerSuccess(acceleration) {
 	$('#sensorX').val(acceleration.x);
 	$('#sensorY').val(acceleration.y);
 	$('#sensorZ').val(acceleration.z);
-    var date = acceleration.timestamp;
-	$('#timestamp').val(date.toDateString());
-    
+	$('#timestamp').val(acceleration.timestamp);
 
 }
 
